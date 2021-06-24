@@ -53,7 +53,7 @@ ruleTester.run("id-missing-attrs", rule, {
       ],
       errors: [
         {
-          message: "Some attributes translate, notranslate are missing.",
+          message: "This element is detected as text and should have the translate or notranslate pipe.",
         },
       ],
     },
@@ -62,7 +62,7 @@ ruleTester.run("id-missing-attrs", rule, {
       options: [{ exceptString: ["translate", "notranslate"] }],
       errors: [
         {
-          message: "Some attributes translate, notranslate are missing.",
+          message: "This element is detected as text and should have the translate or notranslate pipe.",
         },
       ],
     },
@@ -71,7 +71,7 @@ ruleTester.run("id-missing-attrs", rule, {
       options: [{ exceptString: ["popup"] }],
       errors: [
         {
-          message: "Some attributes popup are missing.",
+          message: "This element is detected as text and should have the popup pipe.",
         },
       ],
     },
@@ -83,7 +83,7 @@ ruleTester.run("id-missing-attrs", rule, {
       options: [{ exceptString: ["translate", "notranslate"] }],
       errors: [
         {
-          message: "Some attributes translate, notranslate are missing.",
+          message: "This element is detected as text and should have the translate or notranslate pipe.",
         },
       ],
     },
